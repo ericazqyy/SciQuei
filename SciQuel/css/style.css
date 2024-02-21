@@ -1,0 +1,123 @@
+body {
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin-right: 100px;
+
+}
+
+.Header {
+    margin-left: 130px;
+    font-size: 35px;
+}
+
+.Main {
+    display: flex;
+}
+
+.Main img {
+    width: 50%;
+    height: 400px;
+}
+
+.NewArticleCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #2CAB98;
+    background-image: linear-gradient(#2E8BA4, #51CABA);
+    color: white;
+    justify-content: flex-start;
+    height: 300px;
+    width: 110%;
+}
+
+.NewArticleCard, p {
+    margin-left: 20px;
+    position: relative;
+    left: 90px;
+}
+
+p {
+    color: grey;
+    
+}
+
+.Main div {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ArticleTitle {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content, p {
+    font-size: 23px;
+}
+
+
+.Bio, .Chem {
+    border-radius: 5px;
+    padding: 3px 10px;
+    width: fit-content;
+    color: white;
+}
+
+.Chem {
+    background-color: #203C1E;
+}
+
+
+.Bio {
+    background-color: #CA6651;
+}
+
+
+
+.Articles {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 130px;
+}
+
+.Article {
+    background-color: #F4F5F4;
+    border-radius: 5px;
+    border: 1.5px solid grey;
+    width: 30%;
+
+}
+
+.top, .author {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5% 5% 5%;
+}
+
+.Article img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ArticleTitle, .content {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+
+
+.explore {
+    color: #5A1B11;
+    font-size: 20px;
+    margin-left: 82%;
+}
+
+.material-symbols-outlined {
+    font-size: 23px;
+}
